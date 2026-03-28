@@ -29,8 +29,8 @@ function Footer() {
 
           <div className="col-md-4 mb-1">
             <h5 className="fw-bold">Contact</h5>
-            <p className="footer-text">📞 +91 9876543210</p>
-            <p className="footer-text">✉️ support@farmmarket.com</p>
+            <p className="footer-text">📞 +91 7028030218</p>
+            <p className="footer-text">✉️ support@ra.com</p>
           </div>
 
         </div>
