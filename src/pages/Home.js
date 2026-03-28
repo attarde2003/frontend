@@ -10,12 +10,13 @@ function Home() {
 
   const [index, setIndex] = useState(0);
 
+  // ✅ FIXED: added dependency
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % slides.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [slides.length]);
 
   const nextSlide = () => {
     setIndex((prev) => (prev + 1) % slides.length);
@@ -34,7 +35,7 @@ function Home() {
           src={slides[index]}
           className="w-100"
           style={{ height: "80vh", objectFit: "cover" }}
-          alt=""
+          alt="banner"
         />
 
         <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
@@ -42,9 +43,10 @@ function Home() {
           <h1 className="fw-bold">AGRICULTURE PRODUCT</h1>
 
           <div className="mt-3">
-            <a href="#" className="btn btn-outline-light me-2">Facebook</a>
-            <a href="#" className="btn btn-outline-light me-2">Twitter</a>
-            <a href="#" className="btn btn-outline-light">Instagram</a>
+            {/* ✅ FIXED: valid links */}
+            <a href="https://facebook.com" className="btn btn-outline-light me-2">Facebook</a>
+            <a href="https://twitter.com" className="btn btn-outline-light me-2">Twitter</a>
+            <a href="https://instagram.com" className="btn btn-outline-light">Instagram</a>
           </div>
         </div>
 
@@ -109,7 +111,7 @@ function Home() {
                 <div className="d-flex align-items-center mt-3">
                   <img
                     src={p.img}
-                    alt=""
+                    alt={p.name}
                     className="rounded-circle me-3"
                     width="60"
                     height="60"

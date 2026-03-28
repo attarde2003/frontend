@@ -11,7 +11,8 @@ function Footer() {
           <div className="col-md-4 mb-1">
             <div className="d-flex align-items-center mb-2">
               <img src="/images/logo.png" alt="logo" className="footer-logo" />
-              <h5 className="fw-bold mb-0"></h5>
+              {/* ✅ FIXED: added heading text */}
+              <h5 className="fw-bold mb-0">Farm Market</h5>
             </div>
             <p className="footer-text">
               Connecting farmers directly with markets for better pricing and transparency.
