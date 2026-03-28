@@ -1,0 +1,26 @@
+/* Footer.css */
+
+.footer {
+  background: linear-gradient(90deg, #c2e3c3, #f9fbe7);
+  color: #1b5e20;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-link {
+  color: #1b5e20;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #f9a825;
+  text-decoration: underline;
+}

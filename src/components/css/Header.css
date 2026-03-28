@@ -1,0 +1,38 @@
+/* Header.css */
+
+.header {
+  background: linear-gradient(90deg, #c2e3c3, #f9fbe7);
+}
+
+.logo-section {
+  width: 30%;
+}
+
+.logo-img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.nav-link-custom {
+  color: #1b5e20 !important;
+  margin-left: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: #f9a825 !important;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .logo-section {
+    width: auto;
+  }
+
+  .logo-img {
+    height: 60px;
+  }
+}
