@@ -98,8 +98,8 @@ function Home() {
         <div className="row">
           {[
             { name: "Rahul Attarde", place: "Asoda, Jalgaon", img: "/images/rahul.jpg" },
-            { name: "Ritesh Bhatkar", place: "Bhusawal, Jalgaon", img: "/images/ritesh.jpg" },
-            { name: "Kaushik Dhangar", place: "Paldhi, Jalgaon", img: "/images/kaushik.jpg" },
+            { name: "Rahul Attarde", place: "Asoda, Jalgaon", img: "/images/rahul.jpg" },
+            { name: "Rahul Attarde", place: "Asoda, Jalgaon", img: "/images/rahul.jpg" },
           ].map((p, i) => (
             <div className="col-md-4" key={i}>
               <div className="card p-3 shadow-sm h-100">
