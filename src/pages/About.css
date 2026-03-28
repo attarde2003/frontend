@@ -1,0 +1,38 @@
+/* Bigger images */
+.feature-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: auto;
+  transition: 0.3s ease;
+}
+
+/* Card style */
+.feature-card {
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+/* 🔥 Hover effect */
+.feature-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+/* Image zoom on hover */
+.feature-card:hover .feature-img {
+  transform: scale(1.2);
+}
+
+/* Optional: smooth center focus feel */
+.feature-card:hover {
+  background: #f8fff9;
+}
+.aasha-logo {
+  max-width: 500px;
+  width: 100%;
+  filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.2));
+}

@@ -36,8 +36,8 @@ function Header() {
               { name: "Home", path: "/" },
               { name: "Markets", path: "/markets" },
               { name: "Grain", path: "/grain" },
-              { name: "Merchant", path: "/merchant-login" },
-              { name: "Farmer", path: "/farmer-login" },
+              { name: "Merchants", path: "/merchant-login" },
+              { name: "Farmers", path: "/farmer-login" },
               { name: "About", path: "/about" },
             ].map((item, index) => (
               <li className="nav-item" key={index}>
